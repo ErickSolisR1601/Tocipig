@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--LOCALS CSS-->
+  <link rel="stylesheet" href="./css/index.css" />
+  <title>Tocipig</title>
+</head>
+
+<body>
+  <!--NAVBAR SECTION-->
+  <div class="menu">
+    <i class="fa-solid fa-bars"></i>
+    <i class="fa-solid fa-xmark"></i>
+  </div>
+
+  <div class="slidebar">
+    <div>
+      <div class="name-page">
+        <img src="./imgs/Logo.webp" id="logo" alt="logo" />
+        <span>Aperitivos Tocipig</span>
+      </div>
+    </div>
+
+    <nav class="navs">
+      <ul>
+        <li>
+          <a href="#company">
+            <i class="fa-solid fa-house icon"></i>
+            <span class="text nav-text">Compañía</span>
+          </a>
+        </li>
+        <li>
+          <a href="#products">
+            <i class="fa-solid fa-piggy-bank"></i>
+            <span class="text nav-text">Productos</span>
+          </a>
+        </li>
+        <li>
+          <a href="#quality">
+            <i class="fa-solid fa-star"></i>
+            <span class="text nav-text">Calidad</span>
+          </a>
+        </li>
+        <li>
+          <a href="#contact">
+            <i class="fa-sharp fa-solid fa-address-card icon"></i>
+            <span class="text nav-text">Contacto</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div>
+      <div class="line"></div>
+
+      <div class="user">
+        <br>
+        <img src="./imgs/Logo.webp" alt="Logo" />
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!--COMPANY-->
+    <h1 id="company" class="title">La compañía</h1>
+    <div class="container-history">
+      <div class="container-logo">
+        <img src="./imgs/Logo.webp" alt="Logo" />
+      </div>
+      <div class="container-history-text">
+        <div class="card">
+          <p>
+            Es una empresa familiar fundada en 2015 que inicia sus operaciones
+            fabricando y comercializando cortezas de cerdo fritas en todo el
+            territorio español, transformando un producto cárnico como la
+            corteza de lomo de cerdo en un producto de aperitivo. Actualmente,
+            la empresa cuenta con 8 años de experiencia y dispone de modernas
+            instalaciones en Alicante. En el 2021 la empresa asumió nuevos
+            retos apostando por la innovación, y amplió su portafolio a 3
+            productos de origen cárnico: corteza de cerdo frita, tocino frito
+            y harina de cerdo. Aperitivos Tocipig distribuye sus productos en
+            todo el territorio nacional a clientes mayoristas del sector de
+            aperitivos y snacks
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <h1 id="mision" class="title">Misión</h1>
+    <div class="container-mision">
+      <div class="card">
+        <p>
+          Ofrecer aperitivos de alta calidad, elaborados con materias primas
+          de origen cárnico, mediante procesos innovadores y sostenibles, que
+          satisfagan las necesidades de sus clientes y consumidores,
+          contribuyendo al desarrollo económico y social de la comunidad
+        </p>
+      </div>
+    </div>
+
+    <h1 id="vision" class="title">Visión</h1>
+    <div class="container-vision">
+      <div class="card">
+        <p>
+          Ser líderes en el mercado nacional de aperitivos de origen cárnico,
+          reconocidos por la calidad, la innovación y el compromiso con la
+          sostenibilidad y la responsabilidad social
+        </p>
+      </div>
+    </div>
+
+    <h1 id="values" class="title">Valores</h1>
+    <div class="container-values">
+      <div class="card">
+        <ol>
+          <li>Compromiso con la calidad</li>
+          <li>Innovación en el desarrollo de nuevos productos</li>
+          <li>
+            Orientación hacia la satisfacción de las necesidades de los
+            clientes
+          </li>
+          <li>Formación y experiencia del equipo humano</li>
+        </ol>
+      </div>
+    </div>
+
+    <!--PRODUCTS-->
+    <h1 id="products" class="title">Productos</h1>
+    <div class="product-container">
+      <!--Corteza de cerdo-->
+      <a href="#modal1">
+        <img src="./imgs/products/pork_rind.webp" alt="corteza_Cerdo_500gr" />
+      </a>
+
+      <!--Harina de cerdo-->
+      <a href="#modal2">
+        <img src="./imgs/products/pork_flour.webp" alt="Harina_Cerdo" />
+      </a>
+
+      <!--Tocino frito-->
+      <a href="#modal3">
+        <img src="./imgs/products/fried_bacon.webp" alt="corteza_Cerdo_500gr" />
+      </a>
+    </div>
+
+    <!--MODAL DEL CORTEZA DE CERDO-->
+    <div id="modal1" class="modalmask">
+      <div class="modalbox movedown">
+        <a href="#close" title="Close" class="close">X</a>
+        <h1 class="title-modal">Corteza de cerdo</h1>
+        <br />
+        <h2 class="subtitle-modal">Ingredientes:</h2>
+        <br />
+        <p>
+          Corteza de lomo de cerdo, grasa de cerdo, sal y aroma (aroma de humo
+          y lactosa).
+        </p>
+        <p>
+          Los ingredientes de este producto no proceden de organismos
+          modificados genéticamente.
+        </p>
+        <p>Este producto no contiene gluten.</p>
+        <br />
+        <h2 class="subtitle-modal">Formato:</h2>
+        <br />
+        <p>
+          Bolsa <br />
+          Peso/Unidad: 85gr o 500gr <br />
+          Duración: 6 meses
+        </p>
+        <br />
+        <button><a href="#contact">Comprar</a></button>
+      </div>
+    </div>
+
+    <!--MODAL DEL HARINA DE CERDO-->
+    <div id="modal2" class="modalmask">
+      <div class="modalbox movedown">
+        <a href="#close" title="Close" class="close">X</a>
+        <h1 class="title-modal">Harina de cerdo</h1>
+        <br />
+        <h2 class="subtitle-modal">Ingredientes:</h2>
+        <br />
+        <p>Corteza de lomo de cerdo y sal</p>
+        <p>
+          Los ingredientes de este producto no proceden de organismos
+          modificados genéticamente.
+        </p>
+        <p>Este producto no contiene gluten.</p>
+        <br />
+        <h2 class="subtitle-modal">Formato:</h2>
+        <br />
+        <p>
+          Saco Peso/Unidad: 20kg. <br />
+          Unidades/Caja: 1 <br />
+          Duración: 18 meses
+        </p>
+        <br />
+        <button><a href="#contact">Comprar</a></button>
+      </div>
+    </div>
+
+    <!--MODAL DEL TOCINO FRITO-->
+    <div id="modal3" class="modalmask">
+      <div class="modalbox movedown">
+        <a href="#close" title="Close" class="close">X</a>
+        <h1 class="title-modal">Tocino frito</h1>
+        <br />
+        <h2 class="subtitle-modal">Ingredientes:</h2>
+        <br />
+        <p>
+          Corteza de lomo de cerdo, grasa de cerdo, sal y aroma (aroma de humo
+          y lactosa).
+        </p>
+        <p>
+          Los ingredientes de este producto no proceden de organismos
+          modificados genéticamente.
+        </p>
+        <p>Este producto no contiene gluten.</p>
+        <br />
+        <h2 class="subtitle-modal">Formato:</h2>
+        <br />
+        <p>
+          Bolsa Peso/Unidad: 25gr o 1000gr. <br />
+          Unidades/Caja: 1 <br />
+          Duración: 6 meses
+        </p>
+        <br />
+        <button><a href="#contact">Comprar</a></button>
+      </div>
+    </div>
+
+    <!--QUALITY-->
+    <h1 id="quality" class="title">Calidad</h1>
+    <div class="quality-container">
+      <div class="card">
+        <p>
+          Dentro del compromiso con la calidad y la mejora continua que tiene
+          la empresa Aperitivos Tocipig, se realizan mediciones periódicas
+          utilizando indicadores de desempeño que le permiten a la empresa
+          conocer, evaluar y analizar el estado actual de su funcionamiento
+          para la toma de decisiones informadas. Dentro de los indicadores de
+          desempeño utilizados por Aperitivos Tocipig se encuentran los
+          siguientes:
+        </p>
+      </div>
+    </div>
+
+    <div class="quality-info">
+      <p class="quality-card">Cumplimiento en los plazos de entrega</p>
+    </div>
+    <div class="quality-img">
+      <img src="./imgs/qualitys/delivery_times.webp" alt="" />
+    </div>
+    <div class="quality-info">
+      <p class="quality-card">Porcentaje de rendimiento de materia prima</p>
+    </div>
+    <div class="quality-img">
+      <img src="./imgs/qualitys/raw_material_yield.webp" alt="" />
+    </div>
+    <div class="quality-info">
+      <p class="quality-card">
+        Días promedio de incumplimiento en los plazos de entrega
+      </p>
+    </div>
+    <div class="quality-img">
+      <img src="./imgs/qualitys/missed_deadlines.webp" alt="" />
+    </div>
+    <div class="quality-info">
+      <p class="quality-card">
+        Porcentaje de pedidos con inconformidad reportada por el cliente
+      </p>
+    </div>
+    <div class="quality-img">
+      <img src="./imgs/qualitys/customer_nonconformity_orders.webp" alt="" />
+    </div>
+    <div class="quality-info">
+      <p class="quality-card">Margen de utilidad bruta</p>
+    </div>
+    <div class="quality-img">
+      <img src="./imgs/qualitys/gross_profit_margin.webp" alt="" />
+    </div>
+    <div class="quality-info">
+      <p class="quality-card">Errores de temperatura en maquinaria</p>
+    </div>
+    <div class="quality-img">
+      <img src="./imgs/qualitys/machinery_temperature_errors.webp" alt="" />
+    </div>
+    <div class="quality-info">
+      <p class="quality-card">Desempeño de proveedores</p>
+    </div>
+    <div class="quality-img">
+      <img src="./imgs/qualitys/supplier_performance.webp" alt="" />
+    </div>
+    <div class="quality-info">
+      <p class="quality-card">
+        Porcentaje de peticiones, quejas y reclamos (PQR) tramitadas en plazo
+      </p>
+    </div>
+    <div class="quality-img">
+      <img src="./imgs/qualitys/pqr_times.webp" alt="" />
+    </div>
+    <div class="quality-info">
+      <p class="quality-card">
+        Eficiencia en las actividades de mantenimiento
+      </p>
+    </div>
+    <div class="quality-img">
+      <img src="./imgs/qualitys/efficiency_of_maintenance_activities.webp" alt="" />
+    </div>
+
+    <!--CONTACT-->
+    <div class="contact">
+      <h1 id="contact" class="title">Contacto</h1>
+      <div class="container-contact">
+        <div class="card">
+          <p>
+            Puedes contactar con nosotros por las siguientes vías de contacto
+            que ponemos a tu disposición
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="contact-info">
+      <div class="info">
+        <i class="fa-solid fa-location-dot"></i>
+        <h2>Oficinas</h2>
+        <p>Calle Tocinitos, 44</p>
+        <p>03012 Alicante (Valencia)</p>
+      </div>
+      <div class="info">
+        <i class="fa-solid fa-phone"></i>
+        <h2>Teléfono</h2>
+        <p>+34 96 575 36 66</p>
+      </div>
+      <div class="info">
+        <i class="fa-solid fa-envelope"></i>
+        <h2>Email</h2>
+        <p>informacion@tocipig.com</p>
+      </div>
+    </div>
+
+    <footer>
+      <div class="content">
+        <div class="footer-content">
+          <p>
+            Arnau García, Verónica <br />
+            Collazos Sánchez, Francisco <br />
+            Núñez Vargas, Cely <br />
+            Silva Rojas, Adriana
+          </p>
+
+          <p>
+            UNIVERSITAT DE VALÈNCIA <br />
+            UNIVERSITAT JAUME I
+          </p>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <!--LOCAL JS-->
+  <script src="./js/slidebar.js"></script>
+  <!--FONTAWESOME SCRIPT-->
+  <script src="https://kit.fontawesome.com/0f01a6c81d.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
